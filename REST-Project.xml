@@ -61,7 +61,7 @@ import java.text.SimpleDateFormat
 //get 
 log.info("=======================test started for get=======================") 
 
-def f_g=new File("sampleGetCustomerByIdData.xls"); //97-2013 workbook xls 
+def f_g=new File("D:/rest-demo/my-app/sampleGetCustomerByIdData.xls"); //97-2013 workbook xls 
 def wk_g= Workbook.getWorkbook(f_g) 
 def ws_g=wk_g.getSheet(0) 
 r_g=ws_g.getRows()	//max row number
