@@ -891,3 +891,107 @@
 2019-11-22 20:49:11,916 INFO  [log] =======================test started for get All Customers=======================
 2019-11-22 20:49:12,427 INFO  [log] res code is - 200
 2019-11-22 20:49:12,428 INFO  [log] {"success":1,"error":[],"data":[{"customer_id":2,"customer_group_id":1,"name":"Demo User","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":3,"customer_group_id":1,"name":"Demo User","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":4,"customer_group_id":1,"name":"Demo User","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":5,"customer_group_id":1,"name":"Demo User","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":1,"customer_group_id":1,"name":"Krishna Mohan","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"9876543210","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"12\/11\/2019"}]}
+2019-11-22 20:55:10,974 INFO  [log] =======================test started for add new customer using excel=======================
+2019-11-22 20:55:11,482 INFO  [log] Total rows number - 6
+2019-11-22 20:55:11,504 INFO  [log] {'firstname':'Demo','lastname':'User01','email':'user01@upskills.in','password':'user01@123','confirm':'user01@123','telephone':'1-541-754-3010'}
+2019-11-22 20:55:11,519 INFO  [log] {'firstname':'Demo','lastname':'User02','email':'user02@upskills.in','password':'user02@123','confirm':'user02@123','telephone':'1-541-754-3011'}
+2019-11-22 20:55:11,520 INFO  [log] {'firstname':'Demo','lastname':'User03','email':'user03@upskills.in','password':'user03@123','confirm':'user03@123','telephone':'1-541-754-3012'}
+2019-11-22 20:55:11,520 INFO  [log] {'firstname':'Demo','lastname':'User04','email':'user04@upskills.in','password':'user04@123','confirm':'user04@123','telephone':'1-541-754-3013'}
+2019-11-22 20:55:11,521 INFO  [log] {'firstname':'Demo','lastname':'User05','email':'user05@upskills.in','password':'user05@123','confirm':'user05@123','telephone':'1-541-754-3014'}
+2019-11-22 20:55:11,591 INFO  [log] =======================test started for get customer by Id from Excel=======================
+2019-11-22 20:55:11,832 INFO  [log] Total row number - 7
+2019-11-22 20:55:11,836 INFO  [log] customer Id 1
+2019-11-22 20:55:12,625 INFO  [log] res code is - 200
+2019-11-22 20:55:12,633 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:12,634 INFO  [log] customer Id 2
+2019-11-22 20:55:12,877 INFO  [log] res code is - 200
+2019-11-22 20:55:12,877 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:12,878 INFO  [log] customer Id 3
+2019-11-22 20:55:13,119 INFO  [log] res code is - 200
+2019-11-22 20:55:13,120 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:13,128 INFO  [log] customer Id 4
+2019-11-22 20:55:13,393 INFO  [log] res code is - 200
+2019-11-22 20:55:13,394 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:13,394 INFO  [log] customer Id 5
+2019-11-22 20:55:13,639 INFO  [log] res code is - 200
+2019-11-22 20:55:13,639 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:13,640 INFO  [log] customer Id 6
+2019-11-22 20:55:13,886 INFO  [log] res code is - 404
+2019-11-22 20:55:13,886 INFO  [log] Something went wrong
+2019-11-22 20:55:13,958 INFO  [log] =======================test started for get customer by Id from MySql=======================
+2019-11-22 20:55:14,470 INFO  [log] 1
+2019-11-22 20:55:14,984 INFO  [log] res code is - 200
+2019-11-22 20:55:14,984 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:14,985 INFO  [log] 2
+2019-11-22 20:55:15,234 INFO  [log] res code is - 200
+2019-11-22 20:55:15,234 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:15,235 INFO  [log] 3
+2019-11-22 20:55:15,494 INFO  [log] res code is - 200
+2019-11-22 20:55:15,495 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:15,495 INFO  [log] 4
+2019-11-22 20:55:15,743 INFO  [log] res code is - 200
+2019-11-22 20:55:15,744 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:15,745 INFO  [log] 5
+2019-11-22 20:55:15,991 INFO  [log] res code is - 200
+2019-11-22 20:55:15,991 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:15,992 INFO  [log] 6
+2019-11-22 20:55:16,237 INFO  [log] res code is - 404
+2019-11-22 20:55:16,237 INFO  [log] Something went wrong
+2019-11-22 20:55:16,237 INFO  [log] 7
+2019-11-22 20:55:16,719 INFO  [log] res code is - 404
+2019-11-22 20:55:16,719 INFO  [log] Something went wrong
+2019-11-22 20:55:16,755 INFO  [log] =======================test started for get All Customers=======================
+2019-11-22 20:55:17,243 INFO  [log] res code is - 200
+2019-11-22 20:55:17,244 INFO  [log] {"success":1,"error":[],"data":[{"customer_id":2,"customer_group_id":1,"name":"Demo User","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":3,"customer_group_id":1,"name":"Demo User","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":4,"customer_group_id":1,"name":"Demo User","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":5,"customer_group_id":1,"name":"Demo User","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":1,"customer_group_id":1,"name":"Krishna Mohan","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"9876543210","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"12\/11\/2019"}]}
+2019-11-22 20:55:31,383 INFO  [log] =======================test started for add new customer using excel=======================
+2019-11-22 20:55:32,095 INFO  [log] Total rows number - 6
+2019-11-22 20:55:32,099 INFO  [log] {'firstname':'Demo','lastname':'User01','email':'user01@upskills.in','password':'user01@123','confirm':'user01@123','telephone':'1-541-754-3010'}
+2019-11-22 20:55:32,101 INFO  [log] {'firstname':'Demo','lastname':'User02','email':'user02@upskills.in','password':'user02@123','confirm':'user02@123','telephone':'1-541-754-3011'}
+2019-11-22 20:55:32,101 INFO  [log] {'firstname':'Demo','lastname':'User03','email':'user03@upskills.in','password':'user03@123','confirm':'user03@123','telephone':'1-541-754-3012'}
+2019-11-22 20:55:32,102 INFO  [log] {'firstname':'Demo','lastname':'User04','email':'user04@upskills.in','password':'user04@123','confirm':'user04@123','telephone':'1-541-754-3013'}
+2019-11-22 20:55:32,102 INFO  [log] {'firstname':'Demo','lastname':'User05','email':'user05@upskills.in','password':'user05@123','confirm':'user05@123','telephone':'1-541-754-3014'}
+2019-11-22 20:55:32,220 INFO  [log] =======================test started for get customer by Id from Excel=======================
+2019-11-22 20:55:32,510 INFO  [log] Total row number - 7
+2019-11-22 20:55:32,515 INFO  [log] customer Id 1
+2019-11-22 20:55:33,009 INFO  [log] res code is - 200
+2019-11-22 20:55:33,010 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:33,011 INFO  [log] customer Id 2
+2019-11-22 20:55:33,257 INFO  [log] res code is - 200
+2019-11-22 20:55:33,257 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:33,258 INFO  [log] customer Id 3
+2019-11-22 20:55:33,513 INFO  [log] res code is - 200
+2019-11-22 20:55:33,513 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:33,514 INFO  [log] customer Id 4
+2019-11-22 20:55:33,760 INFO  [log] res code is - 200
+2019-11-22 20:55:33,761 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:33,761 INFO  [log] customer Id 5
+2019-11-22 20:55:34,006 INFO  [log] res code is - 200
+2019-11-22 20:55:34,007 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:34,007 INFO  [log] customer Id 6
+2019-11-22 20:55:34,258 INFO  [log] res code is - 404
+2019-11-22 20:55:34,258 INFO  [log] Something went wrong
+2019-11-22 20:55:34,331 INFO  [log] =======================test started for get customer by Id from MySql=======================
+2019-11-22 20:55:34,357 INFO  [log] 1
+2019-11-22 20:55:34,847 INFO  [log] res code is - 200
+2019-11-22 20:55:34,848 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:34,849 INFO  [log] 2
+2019-11-22 20:55:35,097 INFO  [log] res code is - 200
+2019-11-22 20:55:35,097 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:35,098 INFO  [log] 3
+2019-11-22 20:55:35,349 INFO  [log] res code is - 200
+2019-11-22 20:55:35,349 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:35,350 INFO  [log] 4
+2019-11-22 20:55:35,598 INFO  [log] res code is - 200
+2019-11-22 20:55:35,598 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:35,599 INFO  [log] 5
+2019-11-22 20:55:35,845 INFO  [log] res code is - 200
+2019-11-22 20:55:35,845 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:35,846 INFO  [log] 6
+2019-11-22 20:55:36,092 INFO  [log] res code is - 404
+2019-11-22 20:55:36,093 INFO  [log] Something went wrong
+2019-11-22 20:55:36,095 INFO  [log] 7
+2019-11-22 20:55:36,584 INFO  [log] res code is - 404
+2019-11-22 20:55:36,584 INFO  [log] Something went wrong
+2019-11-22 20:55:36,618 INFO  [log] =======================test started for get All Customers=======================
+2019-11-22 20:55:37,117 INFO  [log] res code is - 200
+2019-11-22 20:55:37,117 INFO  [log] {"success":1,"error":[],"data":[{"customer_id":2,"customer_group_id":1,"name":"Demo User","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":3,"customer_group_id":1,"name":"Demo User","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":4,"customer_group_id":1,"name":"Demo User","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":5,"customer_group_id":1,"name":"Demo User","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":1,"customer_group_id":1,"name":"Krishna Mohan","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"9876543210","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"12\/11\/2019"}]}

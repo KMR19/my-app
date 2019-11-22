@@ -1,82 +1,9 @@
-2019-11-22 20:48:36,725 WARN  [SoapUI] Missing folder [D:\rest-demo\my-app\ext] for external libraries
-2019-11-22 20:48:37,073 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\probits\soapui-settings.xml]
-2019-11-22 20:48:39,716 INFO  [PluginManager] Adding plugin from [C:\Users\probits\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
-2019-11-22 20:48:39,716 INFO  [PluginManager] Adding plugin from [C:\Users\probits\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
-2019-11-22 20:48:41,342 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-2019-11-22 20:48:41,342 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-2019-11-22 20:48:41,344 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
-	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2019-11-22 20:48:41,344 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
-	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2019-11-22 20:48:41,489 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-2019-11-22 20:48:41,490 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
-	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2019-11-22 20:48:41,610 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-2019-11-22 20:48:41,611 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+2019-11-22 20:54:58,613 WARN  [SoapUI] Missing folder [D:\rest-demo\my-app\ext] for external libraries
+2019-11-22 20:54:58,949 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\probits\soapui-settings.xml]
+2019-11-22 20:55:03,272 INFO  [PluginManager] Adding plugin from [C:\Users\probits\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2019-11-22 20:55:03,272 INFO  [PluginManager] Adding plugin from [C:\Users\probits\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2019-11-22 20:55:05,250 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2019-11-22 20:55:05,253 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
 	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
@@ -100,58 +27,8 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2019-11-22 20:48:41,779 INFO  [PluginManager] Adding plugin from [C:\Users\probits\.soapuios\plugins\readyapi-postman-1.0.1.jar]
-2019-11-22 20:48:41,977 INFO  [PluginManager] Adding plugin from [C:\Users\probits\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
-2019-11-22 20:48:42,503 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-2019-11-22 20:48:42,504 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
-	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2019-11-22 20:48:42,633 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-2019-11-22 20:48:42,634 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
-java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
-	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
-	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:264)
-	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
-	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
-	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
-	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
-	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
-	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
-	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
-	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2019-11-22 20:48:42,968 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-2019-11-22 20:48:42,969 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+2019-11-22 20:55:05,431 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2019-11-22 20:55:05,431 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
 	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
 	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
@@ -175,8 +52,58 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2019-11-22 20:48:43,072 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-2019-11-22 20:48:43,073 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+2019-11-22 20:55:05,550 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2019-11-22 20:55:05,550 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2019-11-22 20:55:05,599 INFO  [PluginManager] Adding plugin from [C:\Users\probits\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+2019-11-22 20:55:05,779 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2019-11-22 20:55:05,779 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2019-11-22 20:55:05,905 INFO  [PluginManager] Adding plugin from [C:\Users\probits\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2019-11-22 20:55:06,665 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2019-11-22 20:55:06,666 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
 	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
@@ -200,9 +127,32 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2019-11-22 20:48:43,151 INFO  [PluginManager] Adding plugin from [C:\Users\probits\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
-2019-11-22 20:48:43,642 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
-2019-11-22 20:48:43,643 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+2019-11-22 20:55:06,729 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2019-11-22 20:55:06,729 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2019-11-22 20:55:06,757 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2019-11-22 20:55:06,758 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
 	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
 	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
@@ -226,8 +176,33 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2019-11-22 20:48:43,716 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
-2019-11-22 20:48:43,717 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+2019-11-22 20:55:06,829 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2019-11-22 20:55:06,829 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2019-11-22 20:55:06,915 INFO  [PluginManager] Adding plugin from [C:\Users\probits\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2019-11-22 20:55:07,416 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2019-11-22 20:55:07,417 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
 	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
 	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
@@ -251,131 +226,156 @@ java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.Auto
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2019-11-22 20:48:43,804 INFO  [PluginManager] 5 plugins loaded in 4091 ms
-2019-11-22 20:48:43,805 INFO  [DefaultSoapUICore] All plugins loaded
-2019-11-22 20:48:45,249 INFO  [WsdlProject] Loaded project from [file:/D:/rest-demo/my-app/REST-Project.xml]
-2019-11-22 20:48:45,268 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
-2019-11-22 20:48:45,271 INFO  [SoapUITestCaseRunner] Running Project [REST Project 1], runType = SEQUENTIAL
-2019-11-22 20:48:45,311 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase_Get]
-2019-11-22 20:48:45,312 INFO  [SoapUITestCaseRunner] running step [PostAddNewCustomer_Excel]
-2019-11-22 20:48:45,867 INFO  [log] =======================test started for add new customer using excel=======================
-2019-11-22 20:48:46,356 INFO  [log] Total rows number - 6
-2019-11-22 20:48:46,383 INFO  [log] {'firstname':'Demo','lastname':'User01','email':'user01@upskills.in','password':'user01@123','confirm':'user01@123','telephone':'1-541-754-3010'}
-2019-11-22 20:48:46,405 INFO  [log] {'firstname':'Demo','lastname':'User02','email':'user02@upskills.in','password':'user02@123','confirm':'user02@123','telephone':'1-541-754-3011'}
-2019-11-22 20:48:46,412 INFO  [log] {'firstname':'Demo','lastname':'User03','email':'user03@upskills.in','password':'user03@123','confirm':'user03@123','telephone':'1-541-754-3012'}
-2019-11-22 20:48:46,412 INFO  [log] {'firstname':'Demo','lastname':'User04','email':'user04@upskills.in','password':'user04@123','confirm':'user04@123','telephone':'1-541-754-3013'}
-2019-11-22 20:48:46,413 INFO  [log] {'firstname':'Demo','lastname':'User05','email':'user05@upskills.in','password':'user05@123','confirm':'user05@123','telephone':'1-541-754-3014'}
-2019-11-22 20:48:46,418 INFO  [SoapUITestCaseRunner] running step [getCustomerById_Excel]
-2019-11-22 20:48:46,464 INFO  [log] =======================test started for get customer by Id from Excel=======================
-2019-11-22 20:48:46,694 INFO  [log] Total row number - 7
-2019-11-22 20:48:46,698 INFO  [log] customer Id 1
-2019-11-22 20:48:47,809 INFO  [log] res code is - 200
-2019-11-22 20:48:47,819 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:48:47,820 INFO  [log] customer Id 2
-2019-11-22 20:48:48,084 INFO  [log] res code is - 200
-2019-11-22 20:48:48,084 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:48:48,085 INFO  [log] customer Id 3
-2019-11-22 20:48:48,346 INFO  [log] res code is - 200
-2019-11-22 20:48:48,346 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:48:48,347 INFO  [log] customer Id 4
-2019-11-22 20:48:48,606 INFO  [log] res code is - 200
-2019-11-22 20:48:48,607 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:48:48,608 INFO  [log] customer Id 5
-2019-11-22 20:48:48,860 INFO  [log] res code is - 200
-2019-11-22 20:48:48,861 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:48:48,861 INFO  [log] customer Id 6
-2019-11-22 20:48:49,112 INFO  [log] res code is - 404
-2019-11-22 20:48:49,113 INFO  [log] Something went wrong
-2019-11-22 20:48:49,113 INFO  [SoapUITestCaseRunner] running step [getCustomerById_Mysql]
-2019-11-22 20:48:49,175 INFO  [log] =======================test started for get customer by Id from MySql=======================
-2019-11-22 20:48:49,551 INFO  [log] 1
-2019-11-22 20:48:50,036 INFO  [log] res code is - 200
-2019-11-22 20:48:50,037 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:48:50,038 INFO  [log] 2
-2019-11-22 20:48:50,285 INFO  [log] res code is - 200
-2019-11-22 20:48:50,285 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:48:50,286 INFO  [log] 3
-2019-11-22 20:48:50,539 INFO  [log] res code is - 200
-2019-11-22 20:48:50,539 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:48:50,540 INFO  [log] 4
-2019-11-22 20:48:50,787 INFO  [log] res code is - 200
-2019-11-22 20:48:50,787 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:48:50,788 INFO  [log] 5
-2019-11-22 20:48:51,033 INFO  [log] res code is - 200
-2019-11-22 20:48:51,033 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:48:51,034 INFO  [log] 6
-2019-11-22 20:48:51,279 INFO  [log] res code is - 404
-2019-11-22 20:48:51,279 INFO  [log] Something went wrong
-2019-11-22 20:48:51,280 INFO  [log] 7
-2019-11-22 20:48:51,764 INFO  [log] res code is - 404
-2019-11-22 20:48:51,764 INFO  [log] Something went wrong
-2019-11-22 20:48:51,766 INFO  [SoapUITestCaseRunner] running step [getAllCustomers]
-2019-11-22 20:48:51,786 INFO  [log] =======================test started for get All Customers=======================
-2019-11-22 20:48:52,286 INFO  [log] res code is - 200
-2019-11-22 20:48:52,287 INFO  [log] {"success":1,"error":[],"data":[{"customer_id":2,"customer_group_id":1,"name":"Demo User","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":3,"customer_group_id":1,"name":"Demo User","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":4,"customer_group_id":1,"name":"Demo User","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":5,"customer_group_id":1,"name":"Demo User","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":1,"customer_group_id":1,"name":"Krishna Mohan","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"9876543210","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"12\/11\/2019"}]}
-2019-11-22 20:48:52,294 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase_Get], time taken: 6965ms, status: FINISHED
-2019-11-22 20:48:52,295 INFO  [SoapUITestCaseRunner] Project [REST Project 1] finished with status [FINISHED] in 7014ms
-2019-11-22 20:49:06,459 INFO  [WsdlProject] Loaded project from [file:/D:/rest-demo/my-app/REST-Project.xml]
-2019-11-22 20:49:06,467 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
-2019-11-22 20:49:06,468 INFO  [SoapUITestCaseRunner] Running Project [REST Project 1], runType = SEQUENTIAL
-2019-11-22 20:49:06,489 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase_Get]
-2019-11-22 20:49:06,493 INFO  [SoapUITestCaseRunner] running step [PostAddNewCustomer_Excel]
-2019-11-22 20:49:06,585 INFO  [log] =======================test started for add new customer using excel=======================
-2019-11-22 20:49:07,142 INFO  [log] Total rows number - 6
-2019-11-22 20:49:07,144 INFO  [log] {'firstname':'Demo','lastname':'User01','email':'user01@upskills.in','password':'user01@123','confirm':'user01@123','telephone':'1-541-754-3010'}
-2019-11-22 20:49:07,145 INFO  [log] {'firstname':'Demo','lastname':'User02','email':'user02@upskills.in','password':'user02@123','confirm':'user02@123','telephone':'1-541-754-3011'}
-2019-11-22 20:49:07,157 INFO  [log] {'firstname':'Demo','lastname':'User03','email':'user03@upskills.in','password':'user03@123','confirm':'user03@123','telephone':'1-541-754-3012'}
-2019-11-22 20:49:07,159 INFO  [log] {'firstname':'Demo','lastname':'User04','email':'user04@upskills.in','password':'user04@123','confirm':'user04@123','telephone':'1-541-754-3013'}
-2019-11-22 20:49:07,160 INFO  [log] {'firstname':'Demo','lastname':'User05','email':'user05@upskills.in','password':'user05@123','confirm':'user05@123','telephone':'1-541-754-3014'}
-2019-11-22 20:49:07,160 INFO  [SoapUITestCaseRunner] running step [getCustomerById_Excel]
-2019-11-22 20:49:07,251 INFO  [log] =======================test started for get customer by Id from Excel=======================
-2019-11-22 20:49:07,694 INFO  [log] Total row number - 7
-2019-11-22 20:49:07,707 INFO  [log] customer Id 1
-2019-11-22 20:49:08,200 INFO  [log] res code is - 200
-2019-11-22 20:49:08,201 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:49:08,202 INFO  [log] customer Id 2
-2019-11-22 20:49:08,457 INFO  [log] res code is - 200
-2019-11-22 20:49:08,457 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:49:08,458 INFO  [log] customer Id 3
-2019-11-22 20:49:08,704 INFO  [log] res code is - 200
-2019-11-22 20:49:08,704 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:49:08,704 INFO  [log] customer Id 4
-2019-11-22 20:49:08,952 INFO  [log] res code is - 200
-2019-11-22 20:49:08,953 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:49:08,953 INFO  [log] customer Id 5
-2019-11-22 20:49:09,201 INFO  [log] res code is - 200
-2019-11-22 20:49:09,202 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:49:09,203 INFO  [log] customer Id 6
-2019-11-22 20:49:09,459 INFO  [log] res code is - 404
-2019-11-22 20:49:09,460 INFO  [log] Something went wrong
-2019-11-22 20:49:09,460 INFO  [SoapUITestCaseRunner] running step [getCustomerById_Mysql]
-2019-11-22 20:49:09,505 INFO  [log] =======================test started for get customer by Id from MySql=======================
-2019-11-22 20:49:09,624 INFO  [log] 1
-2019-11-22 20:49:10,122 INFO  [log] res code is - 200
-2019-11-22 20:49:10,123 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:49:10,124 INFO  [log] 2
-2019-11-22 20:49:10,387 INFO  [log] res code is - 200
-2019-11-22 20:49:10,387 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:49:10,388 INFO  [log] 3
-2019-11-22 20:49:10,637 INFO  [log] res code is - 200
-2019-11-22 20:49:10,637 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:49:10,638 INFO  [log] 4
-2019-11-22 20:49:10,892 INFO  [log] res code is - 200
-2019-11-22 20:49:10,893 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:49:10,893 INFO  [log] 5
-2019-11-22 20:49:11,145 INFO  [log] res code is - 200
-2019-11-22 20:49:11,146 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
-2019-11-22 20:49:11,146 INFO  [log] 6
-2019-11-22 20:49:11,402 INFO  [log] res code is - 404
-2019-11-22 20:49:11,403 INFO  [log] Something went wrong
-2019-11-22 20:49:11,403 INFO  [log] 7
-2019-11-22 20:49:11,895 INFO  [log] res code is - 404
-2019-11-22 20:49:11,896 INFO  [log] Something went wrong
-2019-11-22 20:49:11,897 INFO  [SoapUITestCaseRunner] running step [getAllCustomers]
-2019-11-22 20:49:11,916 INFO  [log] =======================test started for get All Customers=======================
-2019-11-22 20:49:12,427 INFO  [log] res code is - 200
-2019-11-22 20:49:12,428 INFO  [log] {"success":1,"error":[],"data":[{"customer_id":2,"customer_group_id":1,"name":"Demo User","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":3,"customer_group_id":1,"name":"Demo User","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":4,"customer_group_id":1,"name":"Demo User","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":5,"customer_group_id":1,"name":"Demo User","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":1,"customer_group_id":1,"name":"Krishna Mohan","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"9876543210","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"12\/11\/2019"}]}
-2019-11-22 20:49:12,432 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase_Get], time taken: 5933ms, status: FINISHED
-2019-11-22 20:49:12,432 INFO  [SoapUITestCaseRunner] Project [REST Project 1] finished with status [FINISHED] in 5964ms
-2019-11-22 20:49:12,859 WARN  [Tools] Could not delete temporary directory C:\Users\probits\AppData\Local\Temp\836340e4-b2dc-4508-b901-f36e86f973d7
-2019-11-22 20:49:12,866 WARN  [Tools] Could not delete temporary directory C:\Users\probits\AppData\Local\Temp\0abdc83c-8152-4903-81f9-2e7f54f0abca
+2019-11-22 20:55:07,499 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2019-11-22 20:55:07,499 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2019-11-22 20:55:07,582 INFO  [PluginManager] 5 plugins loaded in 4313 ms
+2019-11-22 20:55:07,583 INFO  [DefaultSoapUICore] All plugins loaded
+2019-11-22 20:55:09,415 INFO  [WsdlProject] Loaded project from [file:/D:/rest-demo/my-app/REST-Project.xml]
+2019-11-22 20:55:09,517 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
+2019-11-22 20:55:09,519 INFO  [SoapUITestCaseRunner] Running Project [REST Project 1], runType = SEQUENTIAL
+2019-11-22 20:55:09,561 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase_Get]
+2019-11-22 20:55:09,561 INFO  [SoapUITestCaseRunner] running step [PostAddNewCustomer_Excel]
+2019-11-22 20:55:10,974 INFO  [log] =======================test started for add new customer using excel=======================
+2019-11-22 20:55:11,482 INFO  [log] Total rows number - 6
+2019-11-22 20:55:11,504 INFO  [log] {'firstname':'Demo','lastname':'User01','email':'user01@upskills.in','password':'user01@123','confirm':'user01@123','telephone':'1-541-754-3010'}
+2019-11-22 20:55:11,519 INFO  [log] {'firstname':'Demo','lastname':'User02','email':'user02@upskills.in','password':'user02@123','confirm':'user02@123','telephone':'1-541-754-3011'}
+2019-11-22 20:55:11,520 INFO  [log] {'firstname':'Demo','lastname':'User03','email':'user03@upskills.in','password':'user03@123','confirm':'user03@123','telephone':'1-541-754-3012'}
+2019-11-22 20:55:11,520 INFO  [log] {'firstname':'Demo','lastname':'User04','email':'user04@upskills.in','password':'user04@123','confirm':'user04@123','telephone':'1-541-754-3013'}
+2019-11-22 20:55:11,521 INFO  [log] {'firstname':'Demo','lastname':'User05','email':'user05@upskills.in','password':'user05@123','confirm':'user05@123','telephone':'1-541-754-3014'}
+2019-11-22 20:55:11,526 INFO  [SoapUITestCaseRunner] running step [getCustomerById_Excel]
+2019-11-22 20:55:11,591 INFO  [log] =======================test started for get customer by Id from Excel=======================
+2019-11-22 20:55:11,832 INFO  [log] Total row number - 7
+2019-11-22 20:55:11,836 INFO  [log] customer Id 1
+2019-11-22 20:55:12,625 INFO  [log] res code is - 200
+2019-11-22 20:55:12,633 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:12,634 INFO  [log] customer Id 2
+2019-11-22 20:55:12,877 INFO  [log] res code is - 200
+2019-11-22 20:55:12,877 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:12,878 INFO  [log] customer Id 3
+2019-11-22 20:55:13,119 INFO  [log] res code is - 200
+2019-11-22 20:55:13,120 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:13,128 INFO  [log] customer Id 4
+2019-11-22 20:55:13,393 INFO  [log] res code is - 200
+2019-11-22 20:55:13,394 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:13,394 INFO  [log] customer Id 5
+2019-11-22 20:55:13,639 INFO  [log] res code is - 200
+2019-11-22 20:55:13,639 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:13,640 INFO  [log] customer Id 6
+2019-11-22 20:55:13,886 INFO  [log] res code is - 404
+2019-11-22 20:55:13,886 INFO  [log] Something went wrong
+2019-11-22 20:55:13,886 INFO  [SoapUITestCaseRunner] running step [getCustomerById_Mysql]
+2019-11-22 20:55:13,958 INFO  [log] =======================test started for get customer by Id from MySql=======================
+2019-11-22 20:55:14,470 INFO  [log] 1
+2019-11-22 20:55:14,984 INFO  [log] res code is - 200
+2019-11-22 20:55:14,984 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:14,985 INFO  [log] 2
+2019-11-22 20:55:15,234 INFO  [log] res code is - 200
+2019-11-22 20:55:15,234 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:15,235 INFO  [log] 3
+2019-11-22 20:55:15,494 INFO  [log] res code is - 200
+2019-11-22 20:55:15,495 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:15,495 INFO  [log] 4
+2019-11-22 20:55:15,743 INFO  [log] res code is - 200
+2019-11-22 20:55:15,744 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:15,745 INFO  [log] 5
+2019-11-22 20:55:15,991 INFO  [log] res code is - 200
+2019-11-22 20:55:15,991 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:15,992 INFO  [log] 6
+2019-11-22 20:55:16,237 INFO  [log] res code is - 404
+2019-11-22 20:55:16,237 INFO  [log] Something went wrong
+2019-11-22 20:55:16,237 INFO  [log] 7
+2019-11-22 20:55:16,719 INFO  [log] res code is - 404
+2019-11-22 20:55:16,719 INFO  [log] Something went wrong
+2019-11-22 20:55:16,721 INFO  [SoapUITestCaseRunner] running step [getAllCustomers]
+2019-11-22 20:55:16,755 INFO  [log] =======================test started for get All Customers=======================
+2019-11-22 20:55:17,243 INFO  [log] res code is - 200
+2019-11-22 20:55:17,244 INFO  [log] {"success":1,"error":[],"data":[{"customer_id":2,"customer_group_id":1,"name":"Demo User","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":3,"customer_group_id":1,"name":"Demo User","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":4,"customer_group_id":1,"name":"Demo User","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":5,"customer_group_id":1,"name":"Demo User","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":1,"customer_group_id":1,"name":"Krishna Mohan","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"9876543210","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"12\/11\/2019"}]}
+2019-11-22 20:55:17,252 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase_Get], time taken: 7675ms, status: FINISHED
+2019-11-22 20:55:17,253 INFO  [SoapUITestCaseRunner] Project [REST Project 1] finished with status [FINISHED] in 7728ms
+2019-11-22 20:55:31,228 INFO  [WsdlProject] Loaded project from [file:/D:/rest-demo/my-app/REST-Project.xml]
+2019-11-22 20:55:31,246 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
+2019-11-22 20:55:31,246 INFO  [SoapUITestCaseRunner] Running Project [REST Project 1], runType = SEQUENTIAL
+2019-11-22 20:55:31,329 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase_Get]
+2019-11-22 20:55:31,330 INFO  [SoapUITestCaseRunner] running step [PostAddNewCustomer_Excel]
+2019-11-22 20:55:31,383 INFO  [log] =======================test started for add new customer using excel=======================
+2019-11-22 20:55:32,095 INFO  [log] Total rows number - 6
+2019-11-22 20:55:32,099 INFO  [log] {'firstname':'Demo','lastname':'User01','email':'user01@upskills.in','password':'user01@123','confirm':'user01@123','telephone':'1-541-754-3010'}
+2019-11-22 20:55:32,101 INFO  [log] {'firstname':'Demo','lastname':'User02','email':'user02@upskills.in','password':'user02@123','confirm':'user02@123','telephone':'1-541-754-3011'}
+2019-11-22 20:55:32,101 INFO  [log] {'firstname':'Demo','lastname':'User03','email':'user03@upskills.in','password':'user03@123','confirm':'user03@123','telephone':'1-541-754-3012'}
+2019-11-22 20:55:32,102 INFO  [log] {'firstname':'Demo','lastname':'User04','email':'user04@upskills.in','password':'user04@123','confirm':'user04@123','telephone':'1-541-754-3013'}
+2019-11-22 20:55:32,102 INFO  [log] {'firstname':'Demo','lastname':'User05','email':'user05@upskills.in','password':'user05@123','confirm':'user05@123','telephone':'1-541-754-3014'}
+2019-11-22 20:55:32,103 INFO  [SoapUITestCaseRunner] running step [getCustomerById_Excel]
+2019-11-22 20:55:32,220 INFO  [log] =======================test started for get customer by Id from Excel=======================
+2019-11-22 20:55:32,510 INFO  [log] Total row number - 7
+2019-11-22 20:55:32,515 INFO  [log] customer Id 1
+2019-11-22 20:55:33,009 INFO  [log] res code is - 200
+2019-11-22 20:55:33,010 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:33,011 INFO  [log] customer Id 2
+2019-11-22 20:55:33,257 INFO  [log] res code is - 200
+2019-11-22 20:55:33,257 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:33,258 INFO  [log] customer Id 3
+2019-11-22 20:55:33,513 INFO  [log] res code is - 200
+2019-11-22 20:55:33,513 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:33,514 INFO  [log] customer Id 4
+2019-11-22 20:55:33,760 INFO  [log] res code is - 200
+2019-11-22 20:55:33,761 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:33,761 INFO  [log] customer Id 5
+2019-11-22 20:55:34,006 INFO  [log] res code is - 200
+2019-11-22 20:55:34,007 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:34,007 INFO  [log] customer Id 6
+2019-11-22 20:55:34,258 INFO  [log] res code is - 404
+2019-11-22 20:55:34,258 INFO  [log] Something went wrong
+2019-11-22 20:55:34,259 INFO  [SoapUITestCaseRunner] running step [getCustomerById_Mysql]
+2019-11-22 20:55:34,331 INFO  [log] =======================test started for get customer by Id from MySql=======================
+2019-11-22 20:55:34,357 INFO  [log] 1
+2019-11-22 20:55:34,847 INFO  [log] res code is - 200
+2019-11-22 20:55:34,848 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1,"customer_group_id":1,"firstname":"Krishna","lastname":"Mohan","telephone":"9876543210","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"12\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:34,849 INFO  [log] 2
+2019-11-22 20:55:35,097 INFO  [log] res code is - 200
+2019-11-22 20:55:35,097 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":2,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:35,098 INFO  [log] 3
+2019-11-22 20:55:35,349 INFO  [log] res code is - 200
+2019-11-22 20:55:35,349 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":3,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":{"1":"+364545454"},"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:35,350 INFO  [log] 4
+2019-11-22 20:55:35,598 INFO  [log] res code is - 200
+2019-11-22 20:55:35,598 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":4,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:35,599 INFO  [log] 5
+2019-11-22 20:55:35,845 INFO  [log] res code is - 200
+2019-11-22 20:55:35,845 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":5,"customer_group_id":1,"firstname":"Demo","lastname":"User","telephone":"1-541-754-3010","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"18\/11\/2019","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":0,"transaction_total":"₹0.00"}}
+2019-11-22 20:55:35,846 INFO  [log] 6
+2019-11-22 20:55:36,092 INFO  [log] res code is - 404
+2019-11-22 20:55:36,093 INFO  [log] Something went wrong
+2019-11-22 20:55:36,095 INFO  [log] 7
+2019-11-22 20:55:36,584 INFO  [log] res code is - 404
+2019-11-22 20:55:36,584 INFO  [log] Something went wrong
+2019-11-22 20:55:36,592 INFO  [SoapUITestCaseRunner] running step [getAllCustomers]
+2019-11-22 20:55:36,618 INFO  [log] =======================test started for get All Customers=======================
+2019-11-22 20:55:37,117 INFO  [log] res code is - 200
+2019-11-22 20:55:37,117 INFO  [log] {"success":1,"error":[],"data":[{"customer_id":2,"customer_group_id":1,"name":"Demo User","email":"nash1@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":3,"customer_group_id":1,"name":"Demo User","email":"nash2@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":{"1":"+364545454"},"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":4,"customer_group_id":1,"name":"Demo User","email":"nash3@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":5,"customer_group_id":1,"name":"Demo User","email":"nash4@vipmail.hu","newsletter":0,"status":1,"approved":"","safe":0,"ip":"","telephone":"1-541-754-3010","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"18\/11\/2019"},{"customer_id":1,"customer_group_id":1,"name":"Krishna Mohan","email":"mohankrishna176@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"ip":"49.206.9.214","telephone":"9876543210","reward_points":0,"account_custom_field":[],"custom_fields":[],"affiliate":[],"addresses":[],"date_added":"12\/11\/2019"}]}
+2019-11-22 20:55:37,120 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase_Get], time taken: 5786ms, status: FINISHED
+2019-11-22 20:55:37,121 INFO  [SoapUITestCaseRunner] Project [REST Project 1] finished with status [FINISHED] in 5874ms
+2019-11-22 20:55:38,702 WARN  [Tools] Could not delete temporary directory C:\Users\probits\AppData\Local\Temp\9d03fed3-fbf2-464c-a57d-78e3daed9dac
+2019-11-22 20:55:38,704 WARN  [Tools] Could not delete temporary directory C:\Users\probits\AppData\Local\Temp\d08c8a72-4682-49b9-8cf9-80765d7b0a08
