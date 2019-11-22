@@ -20,6 +20,10 @@
 	</pluginRepositories>
 	<build>
 		<plugins>
+		<plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.7.1</version>
+        </plugin>
 			<plugin>
 				<groupId>com.smartbear.soapui</groupId>
 				<artifactId>soapui-maven-plugin</artifactId>
