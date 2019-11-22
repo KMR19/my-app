@@ -10,7 +10,7 @@ node {
 	stage('Build') {
 		def mvn_version = 'soapui_maven'
 		withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"]) {
-			sh 'mvn site clean install'
+			sh 'mvn site'
 			}
 		}
 }
